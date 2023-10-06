@@ -36,18 +36,6 @@ const Sidebar = () => {
               <NavLink exact to="/home" >Home</NavLink>
             </li>
             <li>
-              <NavLink exact to="/blogs" >Blogs</NavLink>
-            </li>
-            <li>
-              <NavLink exact to="/events" >Events</NavLink>
-            </li>
-            <li>
-              <NavLink exact to="/centers" >Centers</NavLink>
-            </li>
-            <li>
-              <NavLink exact to="/careers" >Careers</NavLink>
-            </li>
-            <li>
               <NavLink exact to="/programs" >Programs</NavLink>
             </li>
             <li>
@@ -65,15 +53,6 @@ const Sidebar = () => {
                     <NavLink to="/contact-leads" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                       Contact Leads
                     </NavLink>
-                  </li>
-                  <li className="bg-light">
-                    <NavLink to="/careers-leads">Careers Leads</NavLink>
-                  </li>
-                  <li className="bg-light">
-                    <NavLink to="/frenchise-leads">Frenchise Leads</NavLink>
-                  </li>
-                  <li className="bg-light">
-                    <NavLink to="/centers-leads">Centers Leads</NavLink>
                   </li>
                 </div>
               </div>
