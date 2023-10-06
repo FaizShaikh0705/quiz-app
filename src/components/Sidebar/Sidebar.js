@@ -10,7 +10,8 @@ const Sidebar = () => {
   const { currentUser } = useContext(AuthContext);
   var str = !currentUser.email ? "" : currentUser.email;
   const result = str.split('@')[0];
-  
+
+  // console.log(currentUser);
   const tooglesidebar = () => {
     $('#sidebar').toggleClass('active');
   }

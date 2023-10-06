@@ -4,14 +4,14 @@ require("firebase/auth");
 
 const config = {
 
-  apiKey: "AIzaSyCfZpx4zM5kZorht_JbWpfpjjniHNNvVMA",
-  authDomain: "react-common-dashboard.firebaseapp.com",
-  databaseURL: "https://react-common-dashboard-default-rtdb.firebaseio.com",
-  projectId: "react-common-dashboard",
-  storageBucket: "react-common-dashboard.appspot.com",
-  messagingSenderId: "424934262012",
-  appId: "1:424934262012:web:b2ff7cde9f19a4d9b50379",
-  measurementId: "G-M9642KKLHS"
+  apiKey: "AIzaSyBWyqSbHD8YL9kB7RXeN4FjrtCVZ4rOaOs",
+  authDomain: "quiz-aap-cd320.firebaseapp.com",
+  databaseURL: "https://quiz-aap-cd320-default-rtdb.firebaseio.com",
+  projectId: "quiz-aap-cd320",
+  storageBucket: "quiz-aap-cd320.appspot.com",
+  messagingSenderId: "779757066086",
+  appId: "1:779757066086:web:0ca9debb2da8b4afeadaa7",
+  measurementId: "G-FSYVGSC9CW"
 
 };
 
