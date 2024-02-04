@@ -8,7 +8,7 @@ body {
   overflow-x: hidden;
   /* padding-top: 50px; */
   line-height: 1.5;
-  background-color: #f8f9fa !important;
+  background-color: #D6CB1A !important;
 }
 
 .wrapper {
@@ -86,17 +86,17 @@ a {
 }
 
 .text-primary {
-  color: #d94244 !important;
+  color: #000 !important;
 }
 
 .btn-outline-primary {
-  color: #d94244;
-  border: 1px solid #d94244;
+  color: #000;
+  border: 1px solid #000;
   font-size: 0.8em;
 }
 
 .btn-outline-primary:hover {
-  background-color: #d94244;
+  background-color: #000;
 }
 
 ::placeholder {
@@ -105,7 +105,7 @@ a {
 
 .bg-border-btm {
   /* background: #111213; */
-  border-bottom: 3px solid #d94244;
+  border-bottom: 3px solid #000;
 }
 
 a.nav-drop-ref {

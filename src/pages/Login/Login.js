@@ -2,7 +2,7 @@ import React, { useState, useContext } from 'react';
 import fire from '../../config/Fire';
 import { AuthContext } from '../../context/Auth';
 import { withRouter, Redirect, Link } from 'react-router-dom';
-import logo from '../../assets/logo.jpeg';
+import logo from './logo.jpeg';
 import './Login.css';
 
 

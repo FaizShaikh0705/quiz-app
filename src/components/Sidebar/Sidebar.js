@@ -8,8 +8,8 @@ import './Sidebar.css';
 
 const Sidebar = () => {
   const { currentUser } = useContext(AuthContext);
-  var str = !currentUser.email ? "" : currentUser.email;
-  const result = str.split('@')[0];
+  // var str = !currentUser.email ? "" : currentUser.email;
+  // const result = str.split('@')[0];
 
   // console.log(currentUser);
   const tooglesidebar = () => {
@@ -21,7 +21,7 @@ const Sidebar = () => {
 
     <>
       {currentUser ? (
-        <nav id="sidebar" className="shadow border mt-3">
+        <nav id="sidebar" className="shadow border mt-5">
           <div className="custom-menu">
             <button type="button" id="sidebarCollapse" onClick={tooglesidebar} className="btn btn-primary d-sm-block"></button>
           </div>
@@ -36,16 +36,16 @@ const Sidebar = () => {
               <NavLink exact to="/home" >Home</NavLink>
             </li>
             <li>
-              <NavLink exact to="/programs" >Programs</NavLink>
+              <NavLink exact to="/programs" >Game 1</NavLink>
             </li>
             <li>
-              <NavLink exact to="/Testimonails" >Testimonails</NavLink>
+              <NavLink exact to="/Testimonails" >Game 2</NavLink>
             </li>
             <div class="accordion" id="accordionExample">
               <div id="drop-nav-1">
                 <li className="drop-nav">
                   <a className="collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    Website Leads
+                    Game Reviews
                   </a>
                 </li>
                 <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">

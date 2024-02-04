@@ -21,7 +21,7 @@ function App() {
           <PrivateRoute path="/testimonails" component={Testimonails} />
           <PrivateRoute path="/contact-leads" component={ContactLeads} />
           <Route path="/Login" component={Login} />
-          <Route path="/safari-kids-SignUp" component={SignUp} />
+          <Route path="/SignUp" component={SignUp} />
           <Route exact path="*" component={Home} />
         </Switch>
       </Router>

@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from "../../components/Navbar/Navbar";
 import Sidebar from "../../components/Sidebar/Sidebar";
 import logo from '../../assets/logo.jpeg';
+import "./Home.css"
 
 function Home(props) {
 

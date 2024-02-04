@@ -12,7 +12,7 @@
     max-width: 280px;
     /* height:100%; */
     min-height: 100%;
-    background: #fff;
+    background: #D6CB1A;
     color: #000;
     -webkit-transition: all 0.3s;
     -o-transition: all 0.3s;
@@ -82,14 +82,14 @@
             font-size: 8px; }
         #sidebar ul li a:hover {
           color: #fff!important;
-          background: #d94244;
-          border-bottom: 1px solid #d94244; }
+          background: #000;
+          border-bottom: 1px solid #000; }
       #sidebar ul li.active > a {
         background: transparent;
         color: #fff!important; }
         #sidebar ul li.active > a:hover {
-          background: #d94244;
-          border-bottom: 1px solid #d94244; }
+          background: #000;
+          border-bottom: 1px solid #000; }
     @media (max-width: 991.98px) {
       #sidebar {
         margin-left: -300px; }
@@ -116,7 +116,7 @@
         background: transparent;
         border-color: transparent;
         position: relative;
-        color: #fff;
+        color: #000;
         width: 30px;
         height: 30px; }
         #sidebar .custom-menu .btn.btn-primary:after, #sidebar .custom-menu .btn.btn-primary:before {
